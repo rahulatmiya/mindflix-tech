@@ -93,7 +93,7 @@ app.post('/api/contact', async (req, res) => {
   }
 })
 
-app.post('/api/chat', async (req, res) => {
+app.post('https://mindflix-tech.onrender.com/api/chat', async (req, res) => {
   const { messages } = req.body
   if (!Array.isArray(messages) || messages.length === 0) {
     return res.status(400).json({ error: 'messages array required' })
