@@ -7,10 +7,10 @@ const team = [
     color: 'from-purple-600 to-blue-600',
   },
   {
-    name: 'Rahul Yadav',
+    name: 'Sahaj Yadav',
     role: 'CTO & Co-Founder',
     bio: 'Full-stack engineer and cloud architect with expertise in distributed systems.',
-    initials: 'RY',
+    initials: 'SY',
     color: 'from-blue-600 to-cyan-600',
   },
   {
