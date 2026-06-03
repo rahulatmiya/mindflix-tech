@@ -40,8 +40,8 @@ GUIDELINES:
 - Never make up information not listed above`
 
 const app = express()
-
-app.use(cors({ origin: process.env.CLIENT_ORIGIN || 'http://localhost:5173' }))
+app.use(cors())
+//app.use(cors({ origin: process.env.CLIENT_ORIGIN || 'http://localhost:5173' }))
 app.use(express.json())
 
 app.get('/', (req, res) => {
