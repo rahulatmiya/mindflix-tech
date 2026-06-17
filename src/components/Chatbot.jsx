@@ -68,7 +68,7 @@ export default function Chatbot() {
       const data = await res.json()
       setMessages(prev => [...prev, { role: 'assistant', content: data.content || 'Sorry, I could not get a response.' }])
     } catch {
-      setMessages(prev => [...prev, { role: 'assistant', content: 'Something went wrong. Please try again or contact us at mindsetters.sg@gmail.com.' }])
+      setMessages(prev => [...prev, { role: 'assistant', content: 'Something went wrong. Please try again or contact us at support@mindflix.in.' }])
     } finally {
       setLoading(false)
     }

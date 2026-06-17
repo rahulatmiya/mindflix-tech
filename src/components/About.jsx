@@ -18,7 +18,8 @@ export default function About() {
               <span className="gradient-text">That Matters</span>
             </h2>
             <p className="text-slate-400 text-lg leading-relaxed mb-6">
-              Mindflix Technologies is a Singapore-based software company founded
+              Mindflix Technologies is a global software company with offices in 
+              Singapore, Mumbai, and London. We were founded
               on the belief that great technology should be accessible to every
               business — not just the giants. We partner with startups and
               enterprises alike to build software that solves real problems.

@@ -45,8 +45,8 @@ export default function Contact() {
 
             <div className="space-y-5">
               {[
-                { icon: '📧', label: 'Email', value: 'mindsetters.sg@gmail.com' },
-                { icon: '🌏', label: 'Location', value: 'Singapore' },
+                { icon: '📧', label: 'Email', value: 'support@mindflix.in' },
+                { icon: '🌏', label: 'Offices', value: 'Singapore • Mumbai ' },
                 { icon: '⏰', label: 'Response Time', value: 'Within 24 hours' },
               ].map((item) => (
                 <div key={item.label} className="flex items-center gap-4">
